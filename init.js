@@ -36,6 +36,32 @@ var vuzeimports =
 		com.biglbybt.pif.utils.xml.rss,
 		com.biglbybt.pif.utils.xml.simpleparser );
 	
-
+var biglybtimports = 
+	new JavaImporter( 
+		com.biglbybt.pif,
+		com.biglbybt.pif.config,
+		com.biglbybt.pif.ddb,
+		com.biglbybt.pif.disk,
+		com.biglbybt.pif.download,
+		com.biglbybt.pif.download.savelocation,
+		com.biglbybt.pif.ipfilter,
+		com.biglbybt.pif.logging,
+		com.biglbybt.pif.network,
+		com.biglbybt.pif.peers,
+		com.biglbybt.pif.platform,
+		com.biglbybt.pif.sharing,
+		com.biglbybt.pif.tag,
+		com.biglbybt.pif.torrent,
+		com.biglbybt.pif.tracker,
+		com.biglbybt.pif.tracker.web,
+		com.biglbybt.pif.utils,
+		com.biglbybt.pif.utils.resourcedownloader,
+		com.biglbybt.pif.utils.resourceuploader,
+		com.biglbybt.pif.utils.search,
+		com.biglbybt.pif.utils.security,
+		com.biglbybt.pif.utils.subscriptions,
+		com.biglbybt.pif.utils.xml,
+		com.biglbybt.pif.utils.xml.rss,
+		com.biglbybt.pif.utils.xml.simpleparser );
 
 print( "Loaded init.js" );
